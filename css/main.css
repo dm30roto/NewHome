@@ -4,6 +4,13 @@ body
   	color: #5a5a5a;
 	padding-top: 50px;
 }
+h2
+{
+	color: #e3e7f2;
+}
+h3 {
+	color:#999999;
+}
 .navbar
 {
 	/*background-color: #2e3139;*/
@@ -19,27 +26,10 @@ body
 {
 	text-align: center;
 }
-h2
-{
-	color: #e3e7f2;
-}
-/*img .school 
-{
-	height:65px;
-}*/
 .well 
 {
 	margin:0px;
 	background: #EEEEEE;
-}
-.xp-container 
-{
-	height:300px;
-	margin: 10px 100px 30px
-}
-.carousel-control
-{
-	width:5%;
 }
 .badge
 {
@@ -47,10 +37,17 @@ h2
 	font-weight: normal;
 	font-size: 18px;
 }
-
 .glyphicon-chevron-right, .glyphicon-chevron-left 
 {
 	color:#5a5a5a;
+}
+.xp-container 
+{
+	margin: 10px 10px 30px;
+}
+.carousel-control
+{
+	width:5%;
 }
 .carousel-indicators li 
 {
@@ -59,4 +56,35 @@ h2
 }
 .carousel-indicators .active {
 	background-color: #5a5a5a;
+}
+
+.featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.xp-container .featurette-heading 
+{
+  color:#5a5a5a;
+}
+
+@media (min-width: 768px) {
+  .featurette-heading 
+  {
+    font-size: 50px;
+  }
+  .xp-container  
+  {
+    height:300px;
+    margin: 10px 80px 100px;
+  }
+}
+
+@media (min-width: 400px) {
+  
 }
