@@ -1,0 +1,25 @@
+body 
+{
+	background-color: #23262b;
+  	color: #5a5a5a;
+	padding-top: 50px;
+}
+.navbar
+{
+	/*background-color: #2e3139;*/
+}
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+	color: #e3e7f2;
+}
+/*.jumbotron {
+	background-color: #808895;
+	border-radius: 4px;
+}*/
+.center-row 
+{
+	text-align: center;
+}
+h2
+{
+	color: #e3e7f2;
+}
