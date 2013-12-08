@@ -23,3 +23,40 @@ h2
 {
 	color: #e3e7f2;
 }
+/*img .school 
+{
+	height:65px;
+}*/
+.well 
+{
+	margin:0px;
+	background: #EEEEEE;
+}
+.xp-container 
+{
+	height:300px;
+	margin: 10px 100px 30px
+}
+.carousel-control
+{
+	width:5%;
+}
+.badge
+{
+	background-color: #5a5a5a;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.glyphicon-chevron-right, .glyphicon-chevron-left 
+{
+	color:#5a5a5a;
+}
+.carousel-indicators li 
+{
+	border: 1px solid #5a5a5a;
+	border-radius: 10px;
+}
+.carousel-indicators .active {
+	background-color: #5a5a5a;
+}
