@@ -1,15 +1,18 @@
 body 
 {
 	background-color: #23262b;
-  	color: #5a5a5a;
+  	color: #999999;
 	padding-top: 50px;
+}
+.jumbotron h1, .well .lead {
+	color:#5a5a5a;
 }
 h2
 {
 	color: #e3e7f2;
 }
 h3 {
-	color:#999999;
+	color:#5a5a5a;
 }
 .navbar
 {
