@@ -4,21 +4,31 @@ body
   	color: #999999;
 	padding-top: 50px;
 }
-.jumbotron h1, .well .lead {
+.jumbotron h1 
+{
 	color:#5a5a5a;
 }
 h2
 {
 	color: #e3e7f2;
 }
-h3 {
+h3 
+{
 	color:#5a5a5a;
+}
+p 
+{
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 1.4;
 }
 .navbar
 {
 	/*background-color: #2e3139;*/
 }
-.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand 
+{
 	color: #e3e7f2;
 }
 /*.jumbotron {
@@ -32,7 +42,8 @@ h3 {
 .well 
 {
 	margin:0px;
-	background: #EEEEEE;
+	background: none;
+	border: none;
 }
 .badge
 {
@@ -52,7 +63,7 @@ h3 {
 {
 	width:5%;
 }
-.carousel-indicators li 
+/*.carousel-indicators li 
 {
 	border: 1px solid #5a5a5a;
 	border-radius: 10px;
@@ -60,34 +71,54 @@ h3 {
 .carousel-indicators .active {
 	background-color: #5a5a5a;
 }
+*/
 
-.featurette-divider {
+.featurette-divider 
+{
   margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
-.featurette-heading {
+.featurette-heading 
+{
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
 }
-.xp-container .featurette-heading 
+/*.xp-container .featurette-heading 
 {
   color:#5a5a5a;
+}*/
+.carousel-control.left, .carousel-control.right 
+{
+	background: none;
 }
-
+.contact-links a 
+{
+	font-size: 24px;
+	margin-right: 10px;
+}
 @media (min-width: 768px) {
-  .featurette-heading 
-  {
-    font-size: 50px;
-  }
-  .xp-container  
-  {
-    height:300px;
-    margin: 10px 80px 100px;
-  }
-}
-
-@media (min-width: 400px) {
-  
+	.featurette-heading 
+	{
+		font-size: 50px;
+	}
+	.xp-container  .featurette-heading 
+	{
+		font-size:40px;	
+	}
+	.xp-container  
+	{
+		height:300px;
+		margin: 10px 80px 100px;
+	}
+	p 
+	{
+		font-size: 21px;
+	}
+  	.contact-links a 
+	{
+		font-size: 40px;
+		margin-right: 10px;
+	}
 }
